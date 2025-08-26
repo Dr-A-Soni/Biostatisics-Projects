@@ -137,3 +137,12 @@ auc_value <- auc(roc_curve)
 
 cat("AUC:", auc_value, "\n")
 
+
+
+Details@
+
+From the dataset 
+table(diagnosis)
+
+malignant are 212 and benign are 357.
+
