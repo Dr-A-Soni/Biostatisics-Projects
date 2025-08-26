@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project builds a **Logistic Regression Model** in R to classify breast cancer as **Malignant** and **Benign** using the *Breast Cancer Wisconsin Diagnostic Dataset*.
+This project builds a **Logistic Regression Model** in R to classify breast cancer as either **Malignant** or **Benign** using the *Breast Cancer Wisconsin Diagnostic Dataset* available from kaggle here https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data?resource=download.
 
 ## Steps
 
@@ -16,7 +16,7 @@ This project builds a **Logistic Regression Model** in R to classify breast canc
 
 5. Build Logistic Regression Model
 
-6. Evaluate using confusion matrix and ROC-AUC
+6. Evaluate using the confusion matrix and ROC-AUC
 
 ## Repo Structure
 
@@ -35,3 +35,4 @@ R version >= 4.0
 Packages Used: `tidyverse`, `caret`, `pROC`, `rio`
 
 Install all dependencies using: pacman::p_load()
+
